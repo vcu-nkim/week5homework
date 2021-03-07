@@ -32,9 +32,9 @@ def add_list_numbers(incoming_list):
     Required parameter, incoming_list, should be a list.
     Add all the values together and return it.
     """
-    my_list = [1,2,3,4,5]
-    result = sum(my_list)
-    return result
+    numbers = [1, 2, 3]
+    numsum = sum(numbers)
+    return numsum
 
     
 def longest_value_key(incoming_dict):
