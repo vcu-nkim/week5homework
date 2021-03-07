@@ -36,17 +36,12 @@ def longest_value_key(incoming_dict):
     Required parameter, incoming_dict, should be a dict.
     Find the KEY that has a value with the highest length, use the len() function
     """
-    greatest = 0
-    longest_key = ""
-    if len(incoming_dict) > 0:
-        for k in incoming_dict:
-            value = incoming_dict.get(k)
-            if len(value) > greatest:
-                longest_value = value
-                greatest = len(value)
-                longest_key = k
-                return longest_key
-    if len(incoming_dict) == 0:
-        return None
-    else:
-        return None
+    test_list = [{'Gfg' :  "abcd", 'best' : 2},  
+             {'Gfg' :  "qwertyui", 'best' : 2}, 
+             {'Gfg' :  "xcvz", 'good' : 3}, 
+             {'Gfg' : None, 'good' : 4}] 
+    print("The original list is : " + str(test_list))
+    filt_key = 'Gfg'
+    temp = (sub[filt_key] for sub in test_list) 
+    res = max(len(ele) for ele in temp if ele is not None)
+    print("The maximum length key value : " + str(res))
