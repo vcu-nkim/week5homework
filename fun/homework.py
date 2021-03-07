@@ -7,7 +7,8 @@ def find_greatest_number(incoming_list):
     Find the largest number in the list.
     """
     list1 = [1, 22, 3, 11, 10]
-    print("Largest element is:", list1[-1])
+    list1.sort()
+    print("Largest element is: ", max(list1))
 
 
 def find_least_number(incoming_list):
@@ -16,7 +17,8 @@ def find_least_number(incoming_list):
     Find the smallest/least number in the list.
     """
     list1 = [1, 22, 3, 11, 10]
-    print("Smallest element is:", list1[-1])
+    list1.sort()
+    print("Smallest element is: ", min(list1))
 
 
 def add_list_numbers(incoming_list):
@@ -26,7 +28,7 @@ def add_list_numbers(incoming_list):
     """
     list1 = [1, 2, 3, 4, 5]             
     total = sum(list1)
-    print("Sum of all elements in given list:", total)
+    print("Sum of all elements in given list: ", total)
 
 def longest_value_key(incoming_dict):
     """
@@ -34,5 +36,5 @@ def longest_value_key(incoming_dict):
     Find the KEY that has a value with the highest length, use the len() function
     """
     list1 = ["N","A","M"]
-    print("The length of the list is", len(list1))
+    print("The length of the list is: ", len(list1))
      
