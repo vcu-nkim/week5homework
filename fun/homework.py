@@ -6,9 +6,12 @@ def find_greatest_number(incoming_list):
     Required parameter, incoming_list, should be a list.
     Find the largest number in the list.
     """
-    list1 = [1, 22, 3, 11, 10]
-    list1.sort()
-    print("Largest element is: ", max(list1))
+    max = list[ 0 ]
+    for a in list:
+        if a > max:
+            max = a
+    return max
+    print(max_num_in_list([11, 3, 5, 0]))
 
 
 def find_least_number(incoming_list):
@@ -16,9 +19,12 @@ def find_least_number(incoming_list):
     Required parameter, incoming_list, should be a list.
     Find the smallest/least number in the list.
     """
-    list1 = [1, 22, 3, 11, 10]
-    list1.sort()
-    print("Smallest element is: ", min(list1))
+    min = list [ 0 ]
+    for a in list:
+        if a < min:
+            min = a
+    return min
+    print(smallest_num_in_list([11, 3, 5, 0]))
 
 
 def add_list_numbers(incoming_list):
@@ -27,8 +33,10 @@ def add_list_numbers(incoming_list):
     Add all the values together and return it.
     """
     my_list = [1,2,3,4,5]
-    print("The sum of my_list is:" , sum(my_list))
+    result = sum(my_list)
+    return result
 
+    
 def longest_value_key(incoming_dict):
     """
     Required parameter, incoming_dict, should be a dict.
@@ -36,4 +44,3 @@ def longest_value_key(incoming_dict):
     """
     list1 = ["N","A","M"]
     print("The length of the list is: ", len(list1))
-     
