@@ -6,8 +6,8 @@ def find_greatest_number(incoming_list):
     Required parameter, incoming_list, should be a list.
     Find the largest number in the list.
     """
-    lis = [1, 5, 2, 6]
-    print("Largest number of the list is:", max(lis))
+    list1 = [456, 700, 200]
+    print "Max value element : ", max(list1)
     
 
 def find_least_number(incoming_list):
@@ -15,8 +15,8 @@ def find_least_number(incoming_list):
     Required parameter, incoming_list, should be a list.
     Find the smallest/least number in the list.
     """
-    lis = [1, 5, 2, 6]
-    print("Smallest number of the list is:", min(lis))
+    list1 = [456, 700, 200]
+    print "Min value element : ", min(list1)
     
     
 def add_list_numbers(incoming_list):
@@ -24,9 +24,9 @@ def add_list_numbers(incoming_list):
     Required parameter, incoming_list, should be a list.
     Add all the values together and return it.
     """
-    numbers = [1, 2, 3]
-    numsum = sum(numbers)
-    return numsum
+    numbers = [1,2,3,4,5,1,4,5] 
+    Sum = sum(numbers) 
+    print(Sum) 
 
     
 def longest_value_key(incoming_dict):
