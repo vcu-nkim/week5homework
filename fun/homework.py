@@ -6,8 +6,8 @@ def find_greatest_number(incoming_list):
     Required parameter, incoming_list, should be a list.
     Find the largest number in the list.
     """
-    list1 = [456, 700, 200]
-    print("Max value element : ", max(list1))
+    incoming_list = [456, 700, 200]
+    print("Max value element : ", max(incoming_list))
     
 
 def find_least_number(incoming_list):
@@ -15,8 +15,8 @@ def find_least_number(incoming_list):
     Required parameter, incoming_list, should be a list.
     Find the smallest/least number in the list.
     """
-    list1 = [456, 700, 200]
-    print("Min value element : ", min(list1))
+    incoming_list = [456, 700, 200]
+    print("Min value element : ", min(incoming_list))
     
     
 def add_list_numbers(incoming_list):
