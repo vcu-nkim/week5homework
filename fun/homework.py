@@ -24,9 +24,11 @@ def add_list_numbers(incoming_list):
     Required parameter, incoming_list, should be a list.
     Add all the values together and return it.
     """
-    numbers = [1,2,3,4,5,1,4,5] 
-    Sum = sum(numbers) 
-    print(Sum) 
+    try:
+        total = sum(incoming_list)
+    except:
+        total = 0
+    return total
 
     
 def longest_value_key(incoming_dict):
@@ -34,5 +36,17 @@ def longest_value_key(incoming_dict):
     Required parameter, incoming_dict, should be a dict.
     Find the KEY that has a value with the highest length, use the len() function
     """
-    list1 = ["N","A","M"]
-    print("The length of the list is: ", len(list1))
+    greatest = 0
+    longest_key = ""
+    if len(incoming_dict) > 0:
+        for k in incoming_dict:
+            value = incoming_dict.get(k)
+            if len(value) > greatest:
+                longest_value = value
+                greatest = len(value)
+                longest_key = k
+                return longest_key
+    if len(incoming_dict) == 0:
+        return None
+    else:
+        return None
