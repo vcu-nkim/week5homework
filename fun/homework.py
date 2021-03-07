@@ -24,7 +24,7 @@ def add_list_numbers(incoming_list):
     Required parameter, incoming_list, should be a list.
     Add all the values together and return it.
     """
-    list1 = [1, 2, 3, 4, 5}             
+    list1 = [1, 2, 3, 4, 5]             
     total = sum(list1)
     print("Sum of all elements in given list:", total)
 
