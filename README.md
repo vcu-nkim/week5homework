@@ -1,18 +1,18 @@
 # week5Homework
 
-[![isort](https://github.com/vcu-nkim/week5homework/actions/workflows/isort.yml/badge.svg)](https://github.com/vcu-chfauerbach/week5homework/actions/workflows/isort.yml)
+[![isort](https://github.com/vcu-nkim/week5homework/actions/workflows/isort.yml/badge.svg)]
 
 
 
-[![black](https://github.com/vcu-nkim/week5homework/actions/workflows/pyblack.yml/badge.svg)](https://github.com/vcu-chfauerbach/week5homework/actions/workflows/pyblack.yml)
+[![black](https://github.com/vcu-nkim/week5homework/actions/workflows/pyblack.yml/badge.svg)]
 
 
 
-[![Python package](https://github.com/vcu-nkim/week5homework/actions/workflows/pytest.yml/badge.svg)](https://github.com/vcu-chfauerbach/week5homework/actions/workflows/pytest.yml)
+[![Python package](https://github.com/vcu-nkim/week5homework/actions/workflows/pytest.yml/badge.svg)]
 
 
 
-[![Pylint](https://github.com/vcu-nkim/week5homework/actions/workflows/pylint.yml/badge.svg)](https://github.com/vcu-chfauerbach/week5homework/actions/workflows/pylint.yml)
+[![Pylint](https://github.com/vcu-nkim/week5homework/actions/workflows/pylint.yml/badge.svg)]
 
 
 Same as last time, but with newer information!
