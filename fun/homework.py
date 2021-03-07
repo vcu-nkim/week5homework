@@ -27,7 +27,7 @@ def add_list_numbers(incoming_list):
     Add all the values together and return it.
     """
     my_list = [1,2,3,4,5]
-    print "The sum of my_list is", sum(my_list)
+    print("The sum of my_list is:" , sum(my_list))
 
 def longest_value_key(incoming_dict):
     """
