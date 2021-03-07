@@ -26,11 +26,8 @@ def add_list_numbers(incoming_list):
     Required parameter, incoming_list, should be a list.
     Add all the values together and return it.
     """
-    total = 0
-    incoming_list = [1, 2, 3, 4, 5]             
-    for ele in range(0, len(incoming_list)):
-        total = total + incoming_list[ele]
-    print("Sum of all elements in given list: ", total)
+    my_list = [1,2,3,4,5]
+    print "The sum of my_list is", sum(my_list)
 
 def longest_value_key(incoming_dict):
     """
