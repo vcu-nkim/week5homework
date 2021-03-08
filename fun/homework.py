@@ -47,7 +47,7 @@ def longest_value_key(incoming_dict):
             if len(incoming_dict[key]) > max:
                 max = len(incoming_dict[key])
                 result = key
-        except:
-            result = None
-        return result
+    except:
+        result = None
+    return result
     pass
