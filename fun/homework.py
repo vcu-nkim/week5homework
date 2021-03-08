@@ -12,7 +12,7 @@ def find_least_number(incoming_list):
     return least
     pass
 
-    
+
 def add_list_numbers(incoming_list):
     try:
         total = sum(incoming_list)
